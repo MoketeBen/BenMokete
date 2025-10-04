@@ -1,0 +1,126 @@
+/* === Global Reset === */
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* === App Layout === */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+.app-header {
+  background: linear-gradient(135deg, #0052cc, #2684ff);
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(238, 9, 9, 0.15);
+}
+
+
+.app-title {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.app-nav {
+  margin-top: 0.5rem;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 0 0.8rem;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  color: whitesmoke;
+  background: rgba(255,255,255,0.15);
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background: white;
+  color: black;
+}
+
+.app-main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+/* === Cards === */
+.card {
+  background: whitesmoke;
+  border: none;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: black;
+}
+
+/* === Forms === */
+form label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #444;
+}
+
+form .form-control,
+form textarea,
+form input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.6rem;
+  font-size: 0.95rem;
+  transition: border 0.3s ease;
+}
+
+form .form-control:focus,
+form textarea:focus,
+form input:focus {
+  border: 1px solid #0052cc;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0,82,204,0.4);
+}
+
+/* === Buttons === */
+button,
+.btn {
+  border-radius: 8px !important;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 1000;
+  transition: all 0.2s ease;
+}
+
+button:hover,
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* === Footer === */
+.app-footer {
+  text-align: right;
+  background: aquamarine;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color:black;
+  
+  
+}
