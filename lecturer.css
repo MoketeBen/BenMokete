@@ -1,0 +1,110 @@
+/* === General Card Styling === */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* === Headings === */
+.card h4, .card h5 {
+  color: #2c3e50;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* === Form Inputs === */
+.form-label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+  color: #34495e;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: border 0.3s, box-shadow 0.3s;
+  margin-bottom: 10px;
+}
+
+.form-control:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52,152,219,0.4);
+}
+
+/* === Buttons === */
+.btn-success {
+  background-color: #27ae60;
+  border-color: #27ae60;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #219150;
+  border-color: #219150;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+  border-color: #c0392b;
+}
+
+/* === Submitted Reports List === */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.2s;
+  background-color: #fafafa;
+}
+
+.list-group-item:hover {
+  transform: translateY(-2px);
+  background-color: #f0f4f8;
+}
+
+.list-group-item strong {
+  color: #2c3e50;
+}
+
+.list-group-item .text-muted {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+/* === Misc === */
+.text-success {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.text-muted {
+  font-size: 0.85rem;
+}
